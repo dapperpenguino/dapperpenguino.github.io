@@ -1,6 +1,6 @@
 body {
 	background-color: #6A80FE;
-	background-image: url('backgrounddim.png'), url('backgroundimage.jpg');
+	background-image: url('images/backgrounddim.png'), url('images/backgroundimage.jpg');
 	background-size: cover;
 	background-blend-mode: normal;
 	margin: 5px;
