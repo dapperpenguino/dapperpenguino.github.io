@@ -1,0 +1,50 @@
+body {
+	background-color: #000;
+	background-image: url('images/backgrounddim.png'), url('images/background.jpg');
+	background-size: cover;
+	margin: 15px;
+}
+
+header {
+	border: 3px solid;
+	border-color: #0070ED #183C5C;
+	border-radius: 15px;
+}
+
+header h1 {
+	font-family: “Trebuchet MS”, “Lucida Grande”, “Lucida Sans Unicode”, “Lucida Sans”, Tahoma, sans-serif;
+	font-size: 36px;
+	font-weight: 900;
+	color: white;
+	text-shadow: 1px 2px #183C5C;
+	margin-right: 45px;
+}
+
+header.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header img {
+	padding: 5px;
+	margin-left: 14px;
+	margin-right: 14px;
+}
+
+nav > button.btn {
+	font-weight: bold;
+	float: right;
+	margin-top: 10px;
+	margin-left: 25px;
+	cursor: pointer;
+}
+
+nav button:active {
+	position: relative;
+	top: 2px;
+}
+
+nav a:hover {
+	position: relative;
+	top: 2px;
+}
