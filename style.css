@@ -45,6 +45,45 @@ nav button:active {
 }
 
 nav a:hover {
+	cursor: pointer;
 	position: relative;
 	top: 2px;
 }
+
+nav a:active {
+	position: relative;
+	top: 4px;
+}
+
+a.github {
+	background: rgba(36,41,46,0.5);
+}
+
+a.twitch {
+	background: rgba(100,65,164,0.5);
+}
+
+a.twitter {
+	background: rgba(29,161,242,0.5);
+}
+
+a.youtube {
+	background: rgba(255,0,0,0.5);
+}
+
+a.steam {
+	background: linear-gradient(rgba(13,24,42,0.5), rgba(24, 129, 176, 0.5));
+}
+
+a.discord {
+	background: rgba(114,137,218,0.5);
+}
+
+a.srcom {
+	background: rgba(236,193,79,0.5);
+}
+
+a.switch {
+	background: -webkit-linear-gradient(left, rgba(0,186,225,0.5), rgba(0,186,225,0.5) 50%, rgba(254,92,81,0.5) 50%, rgba(254,92,81,0.5));
+}
+
